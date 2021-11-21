@@ -1,0 +1,104 @@
+/* logo font  */
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+/* paragrap font  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* comment body  */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+.container_main {
+  display: flex;
+  margin: 0;
+}
+
+.container_sidebar {
+  width: 300px;
+  /* margin-right: 5px; */
+  /* border-radius: 3px; */
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+.container__under_main {
+  /* Take the remaining width */
+  flex: 1;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  /* Make it scrollable */
+  overflow: auto;
+}
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+.card-table {
+  display: flex;
+}
+.card-table-under1 {
+  width: 400px;
+  margin-bottom: 10px;
+}
+.image-describe{
+  padding: 50px;
+}
+
+/* comment system */
+.comment_sec{
+  margin: 10px auto;
+  /* border: 1px solid red; */
+}
+.comment_header{
+  font-size: 18px;
+  font-family: 'Kaushan Script', cursive;
+}
+.comment_header_datetime{
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  
+}
+.comment_body{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.comment_parent_card{
+  margin-top: 10px;
+}
+/* footer{
+  display: none;
+  position: fixed; bottom: 0; width: 100%; z-index: 999;
+} */
+/*---------------------------------------------Responsive---------------------------------------*/
+/* media query */
+@media only screen and (max-width: 600px) {
+  .container_main {
+    display: block;
+  }
+  .container_sidebar {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+  .card-table {
+    display: block;
+    /* width: 200px; */
+    /* padding: 3px; */
+  }
+  .card-table-under1 {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+  .container_container-main {
+    width: 100%;
+  }
+  .image-describe{
+    padding: 0;
+  }
+  .comment_header{
+    font-size: 14px;
+  }
+  .comment_body{
+    font-size: 15px;
+  }
+}
