@@ -33,24 +33,24 @@
         <div class="container-sm d-flex my-3">
             <div class="card-group">
                 <div class="card mx-3">
-                    <img src="./image/emile-perron-xrVDYZRGdw4-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="./image/index (2).jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-header text-center">LEARN</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./image/ken-cheung-KonWFWUaAuk-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="./image/index (3).jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-header text-center">PRACTICE</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     </div>
                 </div>
                 <div class="card mx-3">
-                    <img src="./image/emile-perron-xrVDYZRGdw4-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="./image/index (1).jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-header text-center">EXECUTE</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 
                     </div>

@@ -129,6 +129,7 @@
 
       </div>
 
+
       <!-- Comment system start from here  -->
       <div class="container">
         <form method="POST" id="comment_form">
@@ -155,8 +156,8 @@
   <!--TOtal Container end here-->
 
   <footer class="bd-footer bg-dark" id="footer-div">
-    <div style="height:30vh"></div>
-    <h5 class="text-center text-light">Copyright &copy; 2021</h5>
+    <div style="height:40vh"></div>
+    <!-- <h5 class="text-center text-light">Copyright &copy; 2021</h5> -->
   </footer>
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
